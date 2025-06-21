@@ -2,10 +2,8 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-tpv-layout',
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
+  templateUrl: './tpv-layout.component.html',
 })
-export class AppComponent {
-  title = 'testTpv-front';
-}
+export class TpvLayoutComponent {}

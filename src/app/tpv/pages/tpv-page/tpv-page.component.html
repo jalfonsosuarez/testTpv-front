@@ -1,0 +1,18 @@
+<div class="h-screen w-screen grid grid-cols-[60%_40%] grid-rows-2 gap-4 p-4">
+  <div class="bg-blue-200 flex">
+    <div class="grid grid-cols-7 grid-rows-2 gap-2 p-2 mx-5">
+      @for (product of products; track $index) {
+      <product-card />
+      }
+    </div>
+  </div>
+  <div class="bg-green-200 flex items-center justify-center">
+    Columna 2, Fila 1
+  </div>
+  <div class="bg-yellow-200 flex items-center justify-center">
+    Columna 1, Fila 2
+  </div>
+  <div class="bg-red-200 flex items-center justify-center">
+    Columna 2, Fila 2
+  </div>
+</div>

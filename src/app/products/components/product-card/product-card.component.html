@@ -2,13 +2,16 @@
   class="card w-[110px] h-[110px] bg-base-100 shadow-md flex flex-col items-center p-1"
 >
   <button
-    class="btn btn-square btn-primary flex items-center justify-center w-[80px] h-[80px] mb-1"
+    (click)="setProduct(product() ?? null)"
+    class="btn btn-square btn-primary flex items-center justify-center w-[82px] h-[82px] mb-1"
   >
     <img
-      src="assets/images/no-image.jpg"
-      alt="Imagen"
+      [src]="product()?.image"
+      [alt]="product()?.title"
       class="w-20 h-20 p-1 object-contain"
     />
   </button>
-  <span class="text-xs text-center truncate w-full">Título</span>
+  <span class="text-xs text-center truncate w-full">{{
+    product()?.title
+  }}</span>
 </div>

@@ -1,4 +1,4 @@
-<div class="h-screen w-screen grid grid-cols-[55%_45%] grid-rows-2 gap-2 p-4">
+<!-- <div class="h-screen w-screen grid grid-cols-[55%_45%] grid-rows-2 gap-2 p-4">
   <div class="bg-blue-200 flex">
     <div class="grid grid-cols-7 grid-rows-2 gap-1 p-2 mx-2">
       @for (product of products; track $index) {
@@ -15,4 +15,28 @@
   <div class="bg-red-200 flex items-center justify-center">
     Columna 2, Fila 2
   </div>
+</div> -->
+
+<div class="parent h-screen w-screen">
+  <div class="div1">
+    <div class="flex justify-center items-center">
+      <div class="grid xl:grid-cols-7 2xl:grid-cols-8 gap-1 p-2 items-center">
+        @for (product of products; track $index) {
+        <product-card [product]="product" />
+        }
+      </div>
+    </div>
+  </div>
+  <div class="div2 h-20 w-full">
+    <total-sale />
+  </div>
+  <div class="div3">
+    <sales-table />
+  </div>
+  <div class="div4">
+    <product-navigation />
+  </div>
+  <div class="div5">5</div>
+  <div class="div6">6</div>
+  <div class="div7">7</div>
 </div>

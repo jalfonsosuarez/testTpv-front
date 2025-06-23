@@ -1,0 +1,12 @@
+<div class="flex justify-center items-center w-full h-full">
+    <div
+        class="grid xl:grid-cols-4 2xl:grid-cols-4 gap-1 p-2 justify-items-center"
+    >
+        @for (navigate of navigations; track $index) {
+        <navigation-card
+            [direction]="navigate.direcction"
+            [img]="navigate.img"
+        />
+        }
+    </div>
+</div>

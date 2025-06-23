@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://picsum.photos/seed/1/100/100",
+    "title": "Producto 1",
+    "price": 12.34
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://picsum.photos/seed/2/100/100",
+    "title": "Producto 2",
+    "price": 45.67
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://picsum.photos/seed/3/100/100",
+    "title": "Producto 3",
+    "price": 23.45
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://picsum.photos/seed/4/100/100",
+    "title": "Producto 4",
+    "price": 67.89
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://picsum.photos/seed/5/100/100",
+    "title": "Producto 5",
+    "price": 34.56
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://picsum.photos/seed/6/100/100",
+    "title": "Producto 6",
+    "price": 78.9
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://picsum.photos/seed/7/100/100",
+    "title": "Producto 7",
+    "price": 56.78
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://picsum.photos/seed/8/100/100",
+    "title": "Producto 8",
+    "price": 89.01
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://picsum.photos/seed/9/100/100",
+    "title": "Producto 9",
+    "price": 21.43
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://picsum.photos/seed/10/100/100",
+    "title": "Media Calamares",
+    "price": 65.43
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://picsum.photos/seed/11/100/100",
+    "title": "Racion Calamares",
+    "price": 32.1
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://picsum.photos/seed/12/100/100",
+    "title": "Producto 12",
+    "price": 54.32
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://picsum.photos/seed/13/100/100",
+    "title": "Producto 13",
+    "price": 76.54
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://picsum.photos/seed/14/100/100",
+    "title": "Producto 14",
+    "price": 98.76
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://picsum.photos/seed/15/100/100",
+    "title": "Producto 15",
+    "price": 12.98
+  },
+  {
+    "id": 16,
+    "imageUrl": "https://picsum.photos/seed/16/100/100",
+    "title": "Producto 16",
+    "price": 34.87
+  },
+  {
+    "id": 17,
+    "imageUrl": "https://picsum.photos/seed/17/100/100",
+    "title": "Producto 17",
+    "price": 56.09
+  },
+  {
+    "id": 18,
+    "imageUrl": "https://picsum.photos/seed/18/100/100",
+    "title": "Producto 18",
+    "price": 78.21
+  },
+  {
+    "id": 19,
+    "imageUrl": "https://picsum.photos/seed/19/100/100",
+    "title": "Producto 19",
+    "price": 90.12
+  },
+  {
+    "id": 20,
+    "imageUrl": "https://picsum.photos/seed/20/100/100",
+    "title": "Producto 20",
+    "price": 23.45
+  },
+  {
+    "id": 21,
+    "imageUrl": "https://picsum.photos/seed/21/100/100",
+    "title": "Producto 21",
+    "price": 45.67
+  },
+  {
+    "id": 22,
+    "imageUrl": "https://picsum.photos/seed/22/100/100",
+    "title": "Producto 22",
+    "price": 67.89
+  },
+  {
+    "id": 23,
+    "imageUrl": "https://picsum.photos/seed/23/100/100",
+    "title": "Producto 23",
+    "price": 89.01
+  },
+  {
+    "id": 24,
+    "imageUrl": "https://picsum.photos/seed/24/100/100",
+    "title": "Producto 24",
+    "price": 12.34
+  },
+  {
+    "id": 25,
+    "imageUrl": "https://picsum.photos/seed/25/100/100",
+    "title": "Producto 25",
+    "price": 34.56
+  },
+  {
+    "id": 26,
+    "imageUrl": "https://picsum.photos/seed/26/100/100",
+    "title": "Producto 26",
+    "price": 56.78
+  },
+  {
+    "id": 27,
+    "imageUrl": "https://picsum.photos/seed/27/100/100",
+    "title": "Producto 27",
+    "price": 78.9
+  },
+  {
+    "id": 28,
+    "imageUrl": "https://picsum.photos/seed/28/100/100",
+    "title": "Producto 28",
+    "price": 21.43
+  },
+  {
+    "id": 29,
+    "imageUrl": "https://picsum.photos/seed/29/100/100",
+    "title": "Producto 29",
+    "price": 43.21
+  },
+  {
+    "id": 30,
+    "imageUrl": "https://picsum.photos/seed/30/100/100",
+    "title": "Producto 30",
+    "price": 65.43
+  },
+  {
+    "id": 31,
+    "imageUrl": "https://picsum.photos/seed/31/100/100",
+    "title": "Producto 31",
+    "price": 87.65
+  },
+  {
+    "id": 32,
+    "imageUrl": "https://picsum.photos/seed/32/100/100",
+    "title": "Producto 32",
+    "price": 98.76
+  },
+  {
+    "id": 33,
+    "imageUrl": "https://picsum.photos/seed/33/100/100",
+    "title": "Producto 33",
+    "price": 12.98
+  },
+  {
+    "id": 34,
+    "imageUrl": "https://picsum.photos/seed/34/100/100",
+    "title": "Producto 34",
+    "price": 34.87
+  },
+  {
+    "id": 35,
+    "imageUrl": "https://picsum.photos/seed/35/100/100",
+    "title": "Producto 35",
+    "price": 56.09
+  },
+  {
+    "id": 36,
+    "imageUrl": "https://picsum.photos/seed/36/100/100",
+    "title": "Producto 36",
+    "price": 78.21
+  },
+  {
+    "id": 37,
+    "imageUrl": "https://picsum.photos/seed/37/100/100",
+    "title": "Producto 37",
+    "price": 90.12
+  },
+  {
+    "id": 38,
+    "imageUrl": "https://picsum.photos/seed/38/100/100",
+    "title": "Producto 38",
+    "price": 23.45
+  },
+  {
+    "id": 39,
+    "imageUrl": "https://picsum.photos/seed/39/100/100",
+    "title": "Producto 39",
+    "price": 45.67
+  },
+  {
+    "id": 40,
+    "imageUrl": "https://picsum.photos/seed/40/100/100",
+    "title": "Producto 40",
+    "price": 67.89
+  },
+  {
+    "id": 41,
+    "imageUrl": "https://picsum.photos/seed/41/100/100",
+    "title": "Producto 41",
+    "price": 89.01
+  },
+  {
+    "id": 42,
+    "imageUrl": "https://picsum.photos/seed/42/100/100",
+    "title": "Producto 42",
+    "price": 12.34
+  },
+  {
+    "id": 43,
+    "imageUrl": "https://picsum.photos/seed/43/100/100",
+    "title": "Producto 43",
+    "price": 34.56
+  },
+  {
+    "id": 44,
+    "imageUrl": "https://picsum.photos/seed/44/100/100",
+    "title": "Producto 44",
+    "price": 56.78
+  },
+  {
+    "id": 45,
+    "imageUrl": "https://picsum.photos/seed/45/100/100",
+    "title": "Producto 45",
+    "price": 78.9
+  },
+  {
+    "id": 46,
+    "imageUrl": "https://picsum.photos/seed/46/100/100",
+    "title": "Producto 46",
+    "price": 21.43
+  },
+  {
+    "id": 47,
+    "imageUrl": "https://picsum.photos/seed/47/100/100",
+    "title": "Producto 47",
+    "price": 43.21
+  },
+  {
+    "id": 48,
+    "imageUrl": "https://picsum.photos/seed/48/100/100",
+    "title": "Producto 48",
+    "price": 65.43
+  },
+  {
+    "id": 49,
+    "imageUrl": "https://picsum.photos/seed/49/100/100",
+    "title": "Producto 49",
+    "price": 87.65
+  },
+  {
+    "id": 50,
+    "imageUrl": "https://picsum.photos/seed/50/100/100",
+    "title": "Producto 50",
+    "price": 98.76
+  },
+  {
+    "id": 51,
+    "imageUrl": "https://picsum.photos/seed/51/100/100",
+    "title": "Producto 51",
+    "price": 12.98
+  },
+  {
+    "id": 52,
+    "imageUrl": "https://picsum.photos/seed/52/100/100",
+    "title": "Producto 52",
+    "price": 34.87
+  },
+  {
+    "id": 53,
+    "imageUrl": "https://picsum.photos/seed/53/100/100",
+    "title": "Producto 53",
+    "price": 56.09
+  },
+  {
+    "id": 54,
+    "imageUrl": "https://picsum.photos/seed/54/100/100",
+    "title": "Producto 54",
+    "price": 78.21
+  },
+  {
+    "id": 55,
+    "imageUrl": "https://picsum.photos/seed/55/100/100",
+    "title": "Producto 55",
+    "price": 90.12
+  },
+  {
+    "id": 56,
+    "imageUrl": "https://picsum.photos/seed/56/100/100",
+    "title": "Producto 56",
+    "price": 23.45
+  },
+  {
+    "id": 57,
+    "imageUrl": "https://picsum.photos/seed/57/100/100",
+    "title": "Producto 57",
+    "price": 45.67
+  },
+  {
+    "id": 58,
+    "imageUrl": "https://picsum.photos/seed/58/100/100",
+    "title": "Producto 58",
+    "price": 67.89
+  },
+  {
+    "id": 59,
+    "imageUrl": "https://picsum.photos/seed/59/100/100",
+    "title": "Producto 59",
+    "price": 89.01
+  },
+  {
+    "id": 60,
+    "imageUrl": "https://picsum.photos/seed/60/100/100",
+    "title": "Producto 60",
+    "price": 12.34
+  },
+  {
+    "id": 61,
+    "imageUrl": "https://picsum.photos/seed/61/100/100",
+    "title": "Producto 61",
+    "price": 34.56
+  },
+  {
+    "id": 62,
+    "imageUrl": "https://picsum.photos/seed/62/100/100",
+    "title": "Producto 62",
+    "price": 56.78
+  },
+  {
+    "id": 63,
+    "imageUrl": "https://picsum.photos/seed/63/100/100",
+    "title": "Producto 63",
+    "price": 78.9
+  },
+  {
+    "id": 64,
+    "imageUrl": "https://picsum.photos/seed/64/100/100",
+    "title": "Producto 64",
+    "price": 21.43
+  },
+  {
+    "id": 65,
+    "imageUrl": "https://picsum.photos/seed/65/100/100",
+    "title": "Producto 65",
+    "price": 43.21
+  },
+  {
+    "id": 66,
+    "imageUrl": "https://picsum.photos/seed/66/100/100",
+    "title": "Producto 66",
+    "price": 65.43
+  },
+  {
+    "id": 67,
+    "imageUrl": "https://picsum.photos/seed/67/100/100",
+    "title": "Producto 67",
+    "price": 87.65
+  },
+  {
+    "id": 68,
+    "imageUrl": "https://picsum.photos/seed/68/100/100",
+    "title": "Producto 68",
+    "price": 98.76
+  },
+  {
+    "id": 69,
+    "imageUrl": "https://picsum.photos/seed/69/100/100",
+    "title": "Producto 69",
+    "price": 12.98
+  },
+  {
+    "id": 70,
+    "imageUrl": "https://picsum.photos/seed/70/100/100",
+    "title": "Producto 70",
+    "price": 34.87
+  },
+  {
+    "id": 71,
+    "imageUrl": "https://picsum.photos/seed/71/100/100",
+    "title": "Producto 71",
+    "price": 56.09
+  },
+  {
+    "id": 72,
+    "imageUrl": "https://picsum.photos/seed/72/100/100",
+    "title": "Producto 72",
+    "price": 78.21
+  },
+  {
+    "id": 73,
+    "imageUrl": "https://picsum.photos/seed/73/100/100",
+    "title": "Producto 73",
+    "price": 90.12
+  },
+  {
+    "id": 74,
+    "imageUrl": "https://picsum.photos/seed/74/100/100",
+    "title": "Producto 74",
+    "price": 23.45
+  },
+  {
+    "id": 75,
+    "imageUrl": "https://picsum.photos/seed/75/100/100",
+    "title": "Producto 75",
+    "price": 45.67
+  },
+  {
+    "id": 76,
+    "imageUrl": "https://picsum.photos/seed/76/100/100",
+    "title": "Producto 76",
+    "price": 67.89
+  },
+  {
+    "id": 77,
+    "imageUrl": "https://picsum.photos/seed/77/100/100",
+    "title": "Producto 77",
+    "price": 89.01
+  },
+  {
+    "id": 78,
+    "imageUrl": "https://picsum.photos/seed/78/100/100",
+    "title": "Producto 78",
+    "price": 12.34
+  },
+  {
+    "id": 79,
+    "imageUrl": "https://picsum.photos/seed/79/100/100",
+    "title": "Producto 79",
+    "price": 34.56
+  },
+  {
+    "id": 80,
+    "imageUrl": "https://picsum.photos/seed/80/100/100",
+    "title": "Producto 80",
+    "price": 56.78
+  },
+  {
+    "id": 81,
+    "imageUrl": "https://picsum.photos/seed/81/100/100",
+    "title": "Producto 81",
+    "price": 78.9
+  },
+  {
+    "id": 82,
+    "imageUrl": "https://picsum.photos/seed/82/100/100",
+    "title": "Producto 82",
+    "price": 21.43
+  },
+  {
+    "id": 83,
+    "imageUrl": "https://picsum.photos/seed/83/100/100",
+    "title": "Producto 83",
+    "price": 43.21
+  },
+  {
+    "id": 84,
+    "imageUrl": "https://picsum.photos/seed/84/100/100",
+    "title": "Producto 84",
+    "price": 65.43
+  },
+  {
+    "id": 85,
+    "imageUrl": "https://picsum.photos/seed/85/100/100",
+    "title": "Producto 85",
+    "price": 87.65
+  },
+  {
+    "id": 86,
+    "imageUrl": "https://picsum.photos/seed/86/100/100",
+    "title": "Producto 86",
+    "price": 98.76
+  },
+  {
+    "id": 87,
+    "imageUrl": "https://picsum.photos/seed/87/100/100",
+    "title": "Producto 87",
+    "price": 12.98
+  },
+  {
+    "id": 88,
+    "imageUrl": "https://picsum.photos/seed/88/100/100",
+    "title": "Producto 88",
+    "price": 34.87
+  },
+  {
+    "id": 89,
+    "imageUrl": "https://picsum.photos/seed/89/100/100",
+    "title": "Producto 89",
+    "price": 56.09
+  },
+  {
+    "id": 90,
+    "imageUrl": "https://picsum.photos/seed/90/100/100",
+    "title": "Producto 90",
+    "price": 78.21
+  },
+  {
+    "id": 91,
+    "imageUrl": "https://picsum.photos/seed/91/100/100",
+    "title": "Producto 91",
+    "price": 90.12
+  },
+  {
+    "id": 92,
+    "imageUrl": "https://picsum.photos/seed/92/100/100",
+    "title": "Producto 92",
+    "price": 23.45
+  },
+  {
+    "id": 93,
+    "imageUrl": "https://picsum.photos/seed/93/100/100",
+    "title": "Producto 93",
+    "price": 45.67
+  },
+  {
+    "id": 94,
+    "imageUrl": "https://picsum.photos/seed/94/100/100",
+    "title": "Producto 94",
+    "price": 67.89
+  },
+  {
+    "id": 95,
+    "imageUrl": "https://picsum.photos/seed/95/100/100",
+    "title": "Producto 95",
+    "price": 89.01
+  },
+  {
+    "id": 96,
+    "imageUrl": "https://picsum.photos/seed/96/100/100",
+    "title": "Producto 96",
+    "price": 12.34
+  },
+  {
+    "id": 97,
+    "imageUrl": "https://picsum.photos/seed/97/100/100",
+    "title": "Producto 97",
+    "price": 34.56
+  },
+  {
+    "id": 98,
+    "imageUrl": "https://picsum.photos/seed/98/100/100",
+    "title": "Producto 98",
+    "price": 56.78
+  },
+  {
+    "id": 99,
+    "imageUrl": "https://picsum.photos/seed/99/100/100",
+    "title": "Producto 99",
+    "price": 78.9
+  },
+  {
+    "id": 100,
+    "imageUrl": "https://picsum.photos/seed/100/100/100",
+    "title": "Producto 100",
+    "price": 21.43
+  }
+]

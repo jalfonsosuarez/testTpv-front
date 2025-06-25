@@ -21,7 +21,7 @@
   <div class="div1">
     <div class="flex justify-center items-center">
       <div class="grid xl:grid-cols-7 2xl:grid-cols-8 gap-1 p-2 items-center">
-        @for (product of products; track $index) {
+        @for (product of products.value()?.products; track $index) {
         <product-card [product]="product" />
         }
       </div>

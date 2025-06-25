@@ -6,27 +6,10 @@
         class="btn btn-square btn-primary flex items-center justify-center w-[82px] h-[82px] mb-1"
     >
         <span [innerHTML]="safeSvg"></span>
-        <!-- <img
-            [src]=""
-            [alt]="direction()"
-            class="w-20 h-20 p-1 object-contain"
-        /> -->
-
-        <!-- <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="26"
-            height="26"
-            viewBox="0 0 26 26"
-        >
-            <path
-                fill="currentColor"
-                d="M21.125 0H4.875A4.874 4.874 0 0 0 0 4.875v16.25A4.874 4.874 0 0 0 4.875 26h16.25A4.874 4.874 0 0 0 26 21.125V4.875A4.874 4.874 0 0 0 21.125 0M18 17.949a.96.96 0 0 1-.479.817a.99.99 0 0 1-.952.039L11 14.382V18c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V8c0-.551.449-1 1-1h2c.551 0 1 .449 1 1v3.618l5.569-4.425a.99.99 0 0 1 .952.04c.29.174.479.485.479.817z"
-            />
-        </svg> -->
     </button>
     <div class="flex-1 flex flex-col justify-end">
         <span class="text-xs text-center truncate w-full">
-            {{ direction() }}
+            {{ title() }}
         </span>
     </div>
 </div>

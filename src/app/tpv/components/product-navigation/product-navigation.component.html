@@ -4,7 +4,8 @@
     >
         @for (navigate of navigations; track $index) {
         <navigation-card
-            [direction]="navigate.direcction"
+            [direction]="navigate.direction"
+            [title]="navigate.title"
             [img]="navigate.img"
         />
         }

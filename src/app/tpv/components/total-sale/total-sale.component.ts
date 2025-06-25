@@ -1,11 +1,19 @@
-import { CurrencyPipe, DecimalPipe } from '@angular/common';
-import { Component } from '@angular/core';
+import { CurrencyPipe } from "@angular/common";
+import { Component, effect, inject, signal } from "@angular/core";
+import { SalesTableService } from "../sales-table/sales-table.service";
 
 @Component({
-  selector: 'total-sale',
-  imports: [CurrencyPipe],
-  templateUrl: './total-sale.component.html',
+    selector: "total-sale",
+    imports: [CurrencyPipe],
+    templateUrl: "./total-sale.component.html",
 })
 export class TotalSaleComponent {
-  total = 45.5;
+    salesService = inject(SalesTableService);
+    total = signal<number>(0);
+
+    constructor() {
+        effect(() => {
+            this.total.set(this.salesService.getTotal());
+        });
+    }
 }

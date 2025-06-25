@@ -1,25 +1,20 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, effect, inject, signal } from "@angular/core";
+import { SalesTableService } from "./sales-table.service";
+import { CurrencyPipe, DecimalPipe } from "@angular/common";
+import { SalesTableInterface } from "./sales-table.interface";
 
 @Component({
-  selector: 'sales-table',
-  imports: [],
-  templateUrl: './sales-table.component.html',
+    selector: "sales-table",
+    imports: [CurrencyPipe, DecimalPipe],
+    templateUrl: "./sales-table.component.html",
 })
 export class SalesTableComponent {
-  @ViewChild('scrollContainer') scrollContainer!: ElementRef<HTMLDivElement>;
+    salesService = inject(SalesTableService);
+    sales = signal<SalesTableInterface[]>([]);
 
-  ngAfterViewInit() {
-    this.scrollToBottom();
-  }
-
-  scrollToBottom() {
-    setTimeout(() => {
-      this.scrollContainer.nativeElement.scrollTop =
-        this.scrollContainer.nativeElement.scrollHeight;
-    });
-  }
-
-  ngOnInit() {
-    this.scrollToBottom();
-  }
+    constructor() {
+        effect(() => {
+            this.sales.set(this.salesService.sales());
+        });
+    }
 }

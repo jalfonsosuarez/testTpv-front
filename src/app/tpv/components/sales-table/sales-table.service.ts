@@ -9,8 +9,15 @@ export class SalesTableService {
     total = signal<number>(0);
 
     addSale(sale: SalesTableInterface) {
+        const saleFind = this.sales().find(
+            (s) => s.idProduct === sale.idProduct
+        );
+        if (saleFind) {
+            saleFind.quantity += sale.quantity;
+            saleFind.amount += sale.amount;
+            return;
+        }
         this.sales.update((sales) => [sale, ...sales]);
-        this.total.set(this.getTotal());
     }
 
     getSales(): Observable<SalesTableInterface[]> {

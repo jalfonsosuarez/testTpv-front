@@ -2,6 +2,8 @@
 
 Test project to create a TPV using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
 
+Using IA GitHub Copilot to optimize code.
+
 ## Development server
 
 To start a local development server, run:

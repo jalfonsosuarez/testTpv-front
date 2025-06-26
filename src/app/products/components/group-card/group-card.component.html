@@ -1,0 +1,19 @@
+<div
+  class="card xl:w-[100px] 2xl:w-[100px] xl:h-[110px] 2xl:h-[110px] bg-primary shadow-md flex flex-col items-center p-1"
+>
+  <button
+    (click)="setGroup()"
+    class="btn btn-square btn-primary flex items-center justify-center w-[82px] h-[82px] mb-1"
+  >
+    <img
+      [src]="group()?.image ?? 'assets/images/no-image.jpg'"
+      [alt]="group()?.description"
+      class="w-20 h-20 p-1 object-contain rounded-full"
+    />
+  </button>
+  <div class="flex-1 flex flex-col justify-end">
+    <span class="text-xs text-center truncate w-full">
+      {{ group()?.description }}
+    </span>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="flex justify-center items-center p-0">
+    <div
+        class="grid lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1 p-2 items-center"
+    >
+        @for (group of groups.groups; track $index) {
+        <group-card [group]="group" />
+        }
+    </div>
+</div>

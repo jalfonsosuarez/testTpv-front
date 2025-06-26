@@ -10,6 +10,8 @@ import { GroupTitleComponent } from '../../components/group-title/group-title.co
 import { DateComponent } from '../../components/date/date.component';
 import { LoungeComponent } from '../../components/lounge/lounge.component';
 import { TableComponent } from '../../components/table/table.component';
+import { GroupPanelComponent } from '../../components/group-panel/group-panel.component';
+import { AuxFunctionsPanelComponent } from '../../components/aux-functions-panel/aux-functions-panel.component';
 
 @Component({
   selector: 'app-tpv-page',
@@ -22,6 +24,8 @@ import { TableComponent } from '../../components/table/table.component';
     DateComponent,
     LoungeComponent,
     TableComponent,
+    GroupPanelComponent,
+    AuxFunctionsPanelComponent,
   ],
   templateUrl: './tpv-page.component.html',
 })

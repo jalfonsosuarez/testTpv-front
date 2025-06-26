@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "description": "Bebidas",
+    "active": true,
+    "image": "assets/images/groups/drinks.jpg"
+  },
+  {
+    "id": 2,
+    "description": "Cafés",
+    "active": true,
+    "image": "assets/images/groups/coffes.jpg"
+  },
+  {
+    "id": 3,
+    "description": "Desayunos",
+    "active": true,
+    "image": "assets/images/groups/breakfats.jpg"
+  },
+  {
+    "id": 4,
+    "description": "Tapas frías",
+    "active": true,
+    "image": "assets/images/no-image.jpg"
+  },
+  {
+    "id": 5,
+    "description": "Tapas calientes",
+    "active": true,
+    "image": "assets/images/no-image.jpg"
+  },
+  {
+    "id": 6,
+    "description": "Raciones",
+    "active": true,
+    "image": "assets/images/no-image.jpg"
+  },
+  {
+    "id": 7,
+    "description": "Primeros",
+    "active": true,
+    "image": "assets/images/no-image.jpg"
+  },
+  {
+    "id": 8,
+    "description": "Segundos",
+    "active": true,
+    "image": "assets/images/no-image.jpg"
+  },
+  {
+    "id": 9,
+    "description": "Postres",
+    "active": true,
+    "image": "assets/images/groups/fruits.jpg"
+  },
+  {
+    "id": 10,
+    "description": "Alcoholes",
+    "active": true,
+    "image": "assets/images/no-image.jpg"
+  },
+  {
+    "id": 11,
+    "description": "Bocadillos",
+    "active": true,
+    "image": "assets/images/groups/sandwiches.jpg"
+  }
+]

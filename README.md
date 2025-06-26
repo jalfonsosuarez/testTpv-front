@@ -4,7 +4,10 @@ Test project to create a TPV using [Angular CLI](https://github.com/angular/angu
 
 Using IA GitHub Copilot to optimize code.
 
-## Development server
+
+![](readmeImg/aspecto al 2025-06-06 17-05.png)
+
+Development server
 
 To start a local development server, run:
 

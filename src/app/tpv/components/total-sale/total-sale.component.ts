@@ -13,7 +13,7 @@ export class TotalSaleComponent {
 
     constructor() {
         effect(() => {
-            this.total.set(this.salesService.getTotal());
+            this.total.set(this.salesService.total());
         });
     }
 }

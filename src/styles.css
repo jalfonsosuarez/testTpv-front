@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: dracula --default, dark --prefersdark;
+  themes: business --default, drakula --prefersdark;
 }
 
 /* Estructura de la pantala del TPV */
@@ -9,48 +9,64 @@
 .parent {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   gap: 0px;
 }
 
-.div1 {
+.titleGroupPanel {
   grid-column: span 6 / span 6;
-  grid-row: span 4 / span 4;
 }
 
-.div2 {
-  grid-column: span 6 / span 6;
+.datePanel {
   grid-column-start: 7;
 }
 
-.div3 {
+.loungePanel {
+  grid-column-start: 8;
+}
+
+.tablePanel {
+  grid-column-start: 9;
+}
+
+.totalSalePanel {
+  grid-column: span 3 / span 3;
+  grid-column-start: 10;
+}
+
+.productsPanel {
   grid-column: span 6 / span 6;
-  grid-row: span 3 / span 3;
+  grid-row: span 4 / span 4;
+  grid-row-start: 2;
+}
+
+.salesPanel {
+  grid-column: span 6 / span 6;
+  grid-row: span 5 / span 5;
   grid-column-start: 7;
   grid-row-start: 2;
 }
 
-.div4 {
+.navigationPanel {
   grid-column: span 6 / span 6;
-  grid-row-start: 5;
-}
-
-.div5 {
-  grid-column: span 6 / span 6;
-  grid-column-start: 7;
-  grid-row-start: 5;
-}
-
-.div6 {
-  grid-column: span 6 / span 6;
-  grid-row: span 4 / span 4;
   grid-column-start: 1;
   grid-row-start: 6;
 }
 
-.div7 {
+.productsGroupsPanel {
+  grid-column: span 6 / span 6;
+  grid-row: span 4 / span 4;
+  grid-column-start: 1;
+  grid-row-start: 7;
+}
+
+.auxiliarButtonsPanel {
   grid-column: span 6 / span 6;
   grid-row: span 4 / span 4;
   grid-column-start: 7;
-  grid-row-start: 6;
+  grid-row-start: 7;
+}
+
+.custom-caret {
+  caret-width: 4px;
 }

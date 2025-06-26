@@ -6,6 +6,10 @@ import { TotalSaleComponent } from '../../components/total-sale/total-sale.compo
 import { ProductService } from '@products/services/product.service';
 import { ProductNavigationComponent } from '../../components/product-navigation/product-navigation.component';
 import { NavigationCardService } from '../../components/navigation-card/navigation-card.service';
+import { GroupTitleComponent } from '../../components/group-title/group-title.component';
+import { DateComponent } from '../../components/date/date.component';
+import { LoungeComponent } from '../../components/lounge/lounge.component';
+import { TableComponent } from '../../components/table/table.component';
 
 @Component({
   selector: 'app-tpv-page',
@@ -14,6 +18,10 @@ import { NavigationCardService } from '../../components/navigation-card/navigati
     SalesTableComponent,
     TotalSaleComponent,
     ProductNavigationComponent,
+    GroupTitleComponent,
+    DateComponent,
+    LoungeComponent,
+    TableComponent,
   ],
   templateUrl: './tpv-page.component.html',
 })

@@ -1,5 +1,5 @@
 <div #scrollContainer class="h-90 overflow-y-auto w-full">
-    <table class="table table-xl table-pin-rows table-pin-cols bg-amber-800">
+    <table class="table table-xl table-pin-rows table-pin-cols bg-primary">
         <thead>
             <tr>
                 <th class="py-1">#</th>
@@ -13,8 +13,12 @@
         <tbody>
             @for (sale of sales(); track $index) {
             <tr>
-                <td class="py-1 font-normal text-lg">{{ sale.id }}</td>
-                <td class="py-1 font-normal text-lg">{{ sale.description }}</td>
+                <td class="py-1 font-normal text-lg">
+                    {{ sale.id }}
+                </td>
+                <td class="py-1 font-normal text-lg">
+                    {{ sale.description }}
+                </td>
                 <td class="py-1 font-normal text-lg text-right">
                     {{ sale.quantity | number : "1.2-2" }}
                 </td>

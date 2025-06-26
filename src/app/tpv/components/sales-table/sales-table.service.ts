@@ -15,9 +15,11 @@ export class SalesTableService {
         if (saleFind) {
             saleFind.quantity += sale.quantity;
             saleFind.amount += sale.amount;
+            this.total.set(this.getTotal());
             return;
         }
         this.sales.update((sales) => [sale, ...sales]);
+        this.total.set(this.getTotal());
     }
 
     getSales(): Observable<SalesTableInterface[]> {

@@ -17,26 +17,47 @@
   </div>
 </div> -->
 
-<div class="parent h-screen w-screen">
-  <div class="div1">
-    <div class="flex justify-center items-center">
-      <div class="grid xl:grid-cols-7 2xl:grid-cols-8 gap-1 p-2 items-center">
+<div class="parent h-screen w-screen p-0">
+  <div class="titleGroupPanel h-20 w-full p-0">
+    <group-title />
+  </div>
+
+  <div class="datePanel h-20 w-full">
+    <date />
+  </div>
+
+  <div class="loungePanel h-20 w-full">
+    <lounge />
+  </div>
+
+  <div class="tablePanel h-20 w-full">
+    <table></table>
+  </div>
+
+  <div class="totalSalePanel h-20 w-full">
+    <total-sale />
+  </div>
+
+  <div class="productsPanel p-0">
+    <div class="flex justify-center items-center p-0">
+      <div
+        class="grid lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1 p-2 items-center"
+      >
         @for (product of products.value()?.products; track $index) {
         <product-card [product]="product" />
         }
       </div>
     </div>
   </div>
-  <div class="div2 h-20 w-full">
-    <total-sale />
-  </div>
-  <div class="div3">
-    <sales-table />
-  </div>
-  <div class="div4">
+
+  <div class="navigationPanel">
     <product-navigation />
   </div>
-  <div class="div5">5</div>
-  <div class="div6">6</div>
-  <div class="div7">7</div>
+
+  <div class="salesPanel">
+    <sales-table />
+  </div>
+
+  <div class="productsGroupsPanel">6</div>
+  <div class="auxiliarButtonsPanel">7</div>
 </div>

@@ -25,6 +25,5 @@ export class ProductCardComponent {
       amount: amount,
     };
     this.salesService.addSale(sale);
-    console.log(product);
   }
 }

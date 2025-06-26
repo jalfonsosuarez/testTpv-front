@@ -5,7 +5,7 @@ Test project to create a TPV using [Angular CLI](https://github.com/angular/angu
 Using IA GitHub Copilot to optimize code.
 
 
-![](readmeImg/aspecto al 2025-06-06 17-05.png)
+![Aspecto al 2025-06-26 17:05](readmeImg/aspecto al 2025-06-06 17-05.png)
 
 Development server
 
